@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:background="@drawable/triangles_resized"
+    tools:context="com.example.android.udacityquiz1.MainActivity">
+
+
+    <EditText
+        android:id="@+id/edit_text_email"
+        style="@style/edittext_main"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:hint="@string/email_hint"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/edit_text_username"
+        style="@style/edittext_main"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/edit_text_email"
+        android:backgroundTint="@android:color/white"
+        android:layout_alignLeft="@id/edit_text_email"
+        android:layout_alignStart="@id/edit_text_email"
+        android:hint="@string/username_hint"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_text_description"
+        style="@style/edittext_main"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@id/edit_text_username"
+        android:layout_alignStart="@id/edit_text_username"
+        android:layout_below="@+id/edit_text_email"
+        android:hint="@string/description_hint"
+        android:inputType="textLongMessage" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_text_description"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/next_button"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

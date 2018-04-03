@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/triangles_resized"
+    tools:context="com.example.android.udacityquiz1.DetailsActivity">
+
+    <ImageView
+        android:layout_marginTop="80dp"
+        android:id="@+id/imageView"
+        android:src="@color/colorAccent"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/text_view_username"
+        style="@style/textview_detail"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:text="@string/demo_username" />
+
+    <TextView
+        android:id="@+id/text_view_email"
+        style="@style/textview_detail"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/text_view_username"
+        android:text="@string/demo_email" />
+
+    <TextView
+        android:id="@+id/text_view_description"
+        style="@style/textview_detail"
+        android:layout_width="320dp"
+        android:layout_below="@+id/text_view_email"
+        android:scrollHorizontally="false"
+        android:text="@string/demo_description" />
+
+</RelativeLayout>
+

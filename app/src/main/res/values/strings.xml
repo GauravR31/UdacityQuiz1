@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">UdacityQuiz1</string>
+    <string name="username_hint">Username</string>
+    <string name="email_hint">Email</string>
+    <string name="description_hint">Write about yourself</string>
+    <string name="next_button">Next</string>
+    <string name="profile_menu">Profile</string>
+    <string name="demo_username">Demo Username</string>
+    <string name="demo_email">Demo Email</string>
+    <string name="demo_description">This is the demo description and will be replaced by the entered one</string>
+
+    <string name="sharedpref_username">username</string>
+    <string name="sharedpref_email">email</string>
+    <string name="sharedpref_description">description</string>
+</resources>
